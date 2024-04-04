@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(252, 216, 171);
+    padding: 2%;
+}
+header{
+    background-color: antiquewhite;
+    padding: 2%;
+}
+.caja1{
+    border: 2px dotted blue;
+    padding: 2%;
+}
+#span1{
+    color: red;
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(109, 107, 104);
+    padding: 2%;
+    color: aliceblue;
+}
