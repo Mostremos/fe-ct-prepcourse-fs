@@ -2,20 +2,96 @@ body{
     background-color: rgb(252, 216, 171);
     padding: 2%;
 }
-header{
+.header {
     background-color: antiquewhite;
     padding: 2%;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 1cap;
+    border-style: groove;
+    /* Trigger the animation */
+    animation: borderBlink 1.5s step-end infinite;
 }
+/* Define the keyframes for the blinking effect */
+@keyframes borderBlink {
+    from, to {
+        border-color: red;
+    }
+    50% {
+        border-color: blueviolet;
+        background-color: rgb(239, 243, 242);
+    }
+}
+/* Apply the animation to an element with the class 'borderBlink' */
+.borderBlink {
+    border: 0.15em solid;
+}
+.header h1 {
+    font-size: xx-large;
+    line-height: 1.2;
+    margin-bottom: 1em;
+ } 
+ .header p {
+    font-size: x-large;
+    line-height: 1.2  ;
+ } 
 .caja1{
-    border: 2px dotted blue;
+    background-image: url(./fondo.png);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: top left;
+    border: 2px dotted rgb(0, 247, 255);
     padding: 2%;
+    line-height: 2cap;
+}
+.caja1 h2 {
+    font-family: 'trebuchet ms';
+    font-size: 1.6em;
+    color: aliceblue;
+    text-decoration: underline 0.05em;
+    text-underline-offset: 0.3em;
+    margin-bottom: 4em;
+}
+.caja1 p {
+    font-family: 'calibri', sans-serif;
+    font-size: 1.2em;
 }
 #span1{
     color: red;
     font-weight: bold;
 }
-footer{
+#footer{
     background-color: rgb(109, 107, 104);
+    height: 16em;
+    border-radius: 1cap;
+    border-style: groove;
     padding: 2%;
     color: aliceblue;
+    position: relative;
 }
+#footer h4{
+    position: absolute;
+    bottom: 3.5cap;
+    right: 2cap;
+    font-size: 1.1em;
+}
+#footer p{
+    position: absolute;
+    bottom: 1.5cap;
+    right: 2cap;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1.05rem;
+}
+.madimi-one-regular {
+   font-family: "Madimi One", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+.courgette-regular {
+   font-family: "Courgette", cursive;
+   font-size: 1.4rem;
+   font-weight: 400;
+   font-style: normal;
+}
+  
+  

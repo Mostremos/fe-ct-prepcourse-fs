@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M04 CSS homework</title>
-    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="stylesheet" type="text/css" href="./reset.css" />
+    <link rel="stylesheet" type="text/css" href="./estilos.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Madimi+One&display=swap" rel="stylesheet">
 </head>
 <body>
     
     <header>
-        <h1>TOSOS LOS ESTILOS AHORA CON CSS</h1>
-        <p>Esta es una página web<br> y le daré estilos con CSS</p>
+        <div class="header borderBlink">
+          <h1 class="madimi-one-regular">APLICANDO ESTILOS<br>CON CSS</h1>
+          <p class="courgette-regular">Ésta es una página web<br> y le daré estilos con CSS</p>
+        </div>
+        </header>
     </header>
     
     <br>
     
     <main>
         <section>
-
             <div class="caja1">
                 <article>
                     <h2>Ejemplo de div y span</h2>
                 </article>
                 <article>
                     <p>Esto es un párrafo dentro de un div,
-                    <span id="span1"> y esto un span dentro de un párrafo. </span>
+                    <span id="span1">... y esto un span dentro de un párrafo. </span>
                     </p>
                 </article>
             </div>
@@ -34,9 +41,10 @@
     <br>
     
     <footer>
-        <br><br><br><br><br><br><br><br>
-        <h4>M03 C31 - CSS Homework</h4>
-        <p>PrepCourse Henry Academy</p>
+        <div id="footer">
+            <h4>PrepCourse Henry Academy</h4>
+            <p>M03 C29-36 - CSS Homework</p>
+        </div>
     </footer>
 
 </body>
